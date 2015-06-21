@@ -1,0 +1,20 @@
+0   0   LOAD_INT            0 (4)
+    1   STORE_NAME          0 (a)
+    2   LOAD_INT            1 (5)
+    3   STORE_NAME          1 (b)
+    4   LOAD_NAME           0 (a)
+    5   LOAD_NAME           1 (b)
+    6   BINARY_OR           0
+    7   STORE_NAME          2 (c)
+    8   LOAD_NAME           0 (a)
+    9   LOAD_NAME           1 (b)
+    10  BINARY_XOR          0
+    11  STORE_NAME          3 (f)
+    12  LOAD_NAME           4 (cout)
+    13  LOAD_NAME           2 (c)
+    14  CALL_FUNCTION       1
+    15  LOAD_NAME           4 (cout)
+    16  LOAD_NAME           3 (f)
+    17  CALL_FUNCTION       1
+
+--------------------------------------------

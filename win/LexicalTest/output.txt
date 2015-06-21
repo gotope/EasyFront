@@ -1,0 +1,53 @@
+TOKENFLAG           ×Ö·û´®              row	 col
+NAME                a                   1    	1
+EQUAL               =                   1    	3
+NUMBER              8.2                 1    	5
+NEWLINE                                 2    	0
+NAME                b                   2    	1
+EQUAL               =                   2    	3
+NUMBER              0.2                 2    	5
+NEWLINE                                 3    	0
+NAME                c                   3    	1
+EQUAL               =                   3    	3
+NAME                a                   3    	5
+PERCENT             %                   3    	7
+NAME                b                   3    	9
+NEWLINE                                 4    	0
+NAME                d                   4    	1
+EQUAL               =                   4    	3
+NAME                a                   4    	5
+STAR                *                   4    	7
+NAME                b                   4    	9
+NEWLINE                                 5    	0
+NAME                e                   5    	1
+EQUAL               =                   5    	3
+NAME                a                   5    	5
+SLASH               /                   5    	7
+NAME                b                   5    	9
+NEWLINE                                 6    	0
+NAME                f                   6    	1
+EQUAL               =                   6    	3
+NAME                a                   6    	5
+PLUS                +                   6    	7
+NAME                b                   6    	9
+NEWLINE                                 7    	0
+NAME                a                   7    	1
+EQUAL               =                   7    	3
+NAME                a                   7    	5
+MINUS               -                   7    	7
+NAME                b                   7    	9
+NEWLINE                                 8    	0
+NAME                cout                8    	1
+LPAR                (                   8    	5
+NAME                c                   8    	6
+COMMA               ,                   8    	7
+NAME                d                   8    	8
+COMMA               ,                   8    	9
+NAME                e                   8    	10
+COMMA               ,                   8    	11
+NAME                f                   8    	12
+COMMA               ,                   8    	13
+NAME                a                   8    	14
+RPAR                )                   8    	15
+NEWLINE                                 9    	0
+ENDMARKER                               10   	1

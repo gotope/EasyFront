@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EF::Node" Collapsed="true">
+    <Position X="53.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAAAAAAAAAAAEASACAAIAIAAAEAAAAAEAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::Stmt" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAEAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::StmtSeq" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAIAAAAAAEAAQAAAAIAgAAACAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::SmallStmt" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAAAAACA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::SimpleStmt" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAAEAAAAAgAAAAEAAAAAAAAAAAAAAAAKAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::DelStmt" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAIABAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ImportStmt" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAEAAAAAAAEAEAAAAAAAIAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::AssignBase" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::Assign" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAgAAAAAAAAEAAAAAAACAAACAQAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::DerictAssign" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAEAAAAAACAAASAAAAgAAAQ=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::AugAssign" Collapsed="true">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAEIAAAAAAAAAAgAQAAAAkAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::CompoundStmt" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAEAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::IfStmt" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAAAAAAAAEAAAEAAAgEAAAAgAAASIAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ElifStmt" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAgAAAAAAAAACAAEAAAAAAAAAgAAAYIAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ElseStmt" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAQAgQAAAIAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::WhileStmt" Collapsed="true">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAEAAAgAAIAAgAAASIAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ForStmt" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAQEAAAEAAAhAACAAgAAACIAAEAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::TryStmt" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAEAAAAACAAAAQEAAAABCAAIAE=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::CatchStmt" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAgCECQYAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::FunStmt" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAEEAAAAAAAEAgAAAAIAAIABEAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ClassStmt" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAEAAAAAAAEAgAAAAIAAIAAAEA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::Suite" Collapsed="true">
+    <Position X="36.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAQAAAAAAAAAABEAAAAAAAAAAAAACAgEAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::Expr" Collapsed="true">
+    <Position X="72.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ParameterExprAtom" Collapsed="true">
+    <Position X="102.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ParametersExpr" Collapsed="true">
+    <Position X="99.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAAAAAAAAAEAAAAAAAAAAIAEAAAgAQAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::NostarParameterExpr" Collapsed="true">
+    <Position X="101.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABEAHAAAAAAAAAAAAAQAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::TupleParameterExpr" Collapsed="true">
+    <Position X="104" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAEAAAAAAAEAAAAAQAAAIgAIAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::MapParameterExpr" Collapsed="true">
+    <Position X="106.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACQAEAAAAAAAEAAAAAQAAAIgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ConExpr" Collapsed="true">
+    <Position X="48.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::LambdaExpr" Collapsed="true">
+    <Position X="43.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAQAIAAiAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::LogicalExpr" Collapsed="true">
+    <Position X="50" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::LogicalOrExpr" Collapsed="true">
+    <Position X="54.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAAAAAAAEAAAAAABAAQAAAAACAAAgAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::LogicalAndExpr" Collapsed="true">
+    <Position X="45.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAAAAAAAAAAAAEAAAAIAAAAEAAAABAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::LogicalNotExpr" Collapsed="true">
+    <Position X="47.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAIEAAAAIAAAAAQAAABAAAABAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::LogicalRelExpr" Collapsed="true">
+    <Position X="50" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAAQAAAAAAAAAAAAUAAAAAAAAAAAAAEAEAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::LogicalRelExprR" Collapsed="true">
+    <Position X="52.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAQQQAAAAAAAAAAAAUIAAAAAAAAAAAAEAEAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::SmallExpr" Collapsed="true">
+    <Position X="77" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACEBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::OrExpr" Collapsed="true">
+    <Position X="86" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgIAAAABAAAAAAEAAAAAABAAQAAAAAAAAAgAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::XorExpr" Collapsed="true">
+    <Position X="90.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAgAIAAAAAAAAAAAEAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::AndExpr" Collapsed="true">
+    <Position X="95" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAIAEAEAAAAAAAAAEAAAAAAAAAQBAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ShiftExpr" Collapsed="true">
+    <Position X="56.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQICAAAAAAIAAAAAAAEAAAIAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ShiftExprR" Collapsed="true">
+    <Position X="77" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQICQAAAAAIAAAAAAAEIAAAAAIAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ArithExpr" Collapsed="true">
+    <Position X="79.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAABAAAAAEAAAAAAASIAAAAAAAAAAgAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ArithExprR" Collapsed="true">
+    <Position X="81.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAABACAAAEIAAAAAASIAAAAAAAACAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::TermExpr" Collapsed="true">
+    <Position X="83.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAQAQIAAAAAEAAAAAAAAAAgEAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::TermExprR" Collapsed="true">
+    <Position X="88.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAAAQAQIAAAgAEIAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::FactorExpr" Collapsed="true">
+    <Position X="92.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAACQAAAAAAEJAAAAAEAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::PowerExpr" Collapsed="true">
+    <Position X="97.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAABEAEIAAAAAAAAAEEAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::AtomExpr" Collapsed="true">
+    <Position X="66.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::TupleExpr" Collapsed="true">
+    <Position X="61.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAEAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::MapExpr" Collapsed="true">
+    <Position X="65.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAMAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::VariablesExpr" Collapsed="true">
+    <Position X="39.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAEAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::TupleVariableExpr" Collapsed="true">
+    <Position X="38.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAABAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAwAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::MapVariableExpr" Collapsed="true">
+    <Position X="41" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEEAAAAAAAAAAAAAAEAAAAAAAAAAAIAAEAABAAEAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::NumberExpr" Collapsed="true">
+    <Position X="72.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAEAAAAAAAAACCAAQAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::StringExpr" Collapsed="true">
+    <Position X="74.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAEAAAAAAAAACAAAQAAAACAAgA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::KeyWordExpr" Collapsed="true">
+    <Position X="59" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAEAAACAAAAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::NameExpr" Collapsed="true">
+    <Position X="63.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAgAAAEAAAAAAAEAAAgEAAAAIAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::FunInvokeExpr" Collapsed="true">
+    <Position X="68" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAAEAAAAEAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF::ModuleInvokeExpr" Collapsed="true">
+    <Position X="70.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAoAAAQAAAAAAAAAAAEAAAAAAAEAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\EasyFront\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

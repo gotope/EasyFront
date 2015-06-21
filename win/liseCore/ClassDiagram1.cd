@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lise::CSTstate" Collapsed="true">
+    <Position X="113.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAgAAAAAAAAAAQIBACACQAAAAAgAIAAAAIAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\ConcreteTree.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::CST" Collapsed="true">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAkAAAIAAAAAAAAAACAAAAAAAAAAAABAAAIAAAAEAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\ConcreteTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::SimpleCST" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAACAAAAAAAAAAAABAAAAEAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\ConcreteTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Node" Collapsed="true">
+    <Position X="60.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAEASACAAAAAAAAEAAAAAEAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Expr" Collapsed="true">
+    <Position X="43.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ConExpr" Collapsed="true">
+    <Position X="20.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAACA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Parameters" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAEAAAAAAAAAAAAEIAAAAQAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ParameterAtom" Collapsed="true">
+    <Position X="28" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::NostarParameter" Collapsed="true">
+    <Position X="25.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAEAAAAAAAGAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::TupleParameter" Collapsed="true">
+    <Position X="28" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAQAAAAAAEAAAAAAAEAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::MapParameter" Collapsed="true">
+    <Position X="30.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAEAEAAAAAAAEAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Logical" Collapsed="true">
+    <Position X="20.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::LogicalOr" Collapsed="true">
+    <Position X="16.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::LogicalNot" Collapsed="true">
+    <Position X="19" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIEACAAAAAAAAAAAAABAAAAQAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::LogicalAnd" Collapsed="true">
+    <Position X="21.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAEAgAAIAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::LogicalRel" Collapsed="true">
+    <Position X="23.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAACAAAAAAIEEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::SmallExpr" Collapsed="true">
+    <Position X="51.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACEBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::OrExpr" Collapsed="true">
+    <Position X="68.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgIAAAAAAAAgACEAAAAAABAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::XorExpr" Collapsed="true">
+    <Position X="32.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAAAAAAAAAAAEAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::AndExpr" Collapsed="true">
+    <Position X="50.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAQBAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ShiftExpr" Collapsed="true">
+    <Position X="52.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAAAEAAAIAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ShiftExprR" Collapsed="true">
+    <Position X="55" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAIAEAAAAAAIAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ArithExpr" Collapsed="true">
+    <Position X="57.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAEAAAAAAASAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ArithExprR" Collapsed="true">
+    <Position X="59.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAIAEAAAAAAASAAAAAAAAACAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Term" Collapsed="true">
+    <Position X="61.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQIAAAAAEAAAAAAAAAAAAEAgAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::TermR" Collapsed="true">
+    <Position X="64" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAQIAAAIAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Factor" Collapsed="true">
+    <Position X="66.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAhAAAAAAAAAAAAEABAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Power" Collapsed="true">
+    <Position X="70.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAABAAEAAAAAAAAAAABAAAAAAAAABA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Atom" Collapsed="true">
+    <Position X="41.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Tuple" Collapsed="true">
+    <Position X="34.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Map" Collapsed="true">
+    <Position X="37" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Number" Collapsed="true">
+    <Position X="39.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAgAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::String" Collapsed="true">
+    <Position X="41.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::KeyWord" Collapsed="true">
+    <Position X="43.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAABAAAAAACAABAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::FunInvoke" Collapsed="true">
+    <Position X="46" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAIAAAAAAEAEAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ModuleInvoke" Collapsed="true">
+    <Position X="48.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAQAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Stmt" Collapsed="true">
+    <Position X="88.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAEAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::SimpleStmt" Collapsed="true">
+    <Position X="101.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::SmallStmt" Collapsed="true">
+    <Position X="101.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Del" Collapsed="true">
+    <Position X="97.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Import" Collapsed="true">
+    <Position X="100" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::CompoundStmt" Collapsed="true">
+    <Position X="82" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::If" Collapsed="true">
+    <Position X="79.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAACAAAAAAAAAAAAAEAAAgAAAAAgAAAAAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Elif" Collapsed="true">
+    <Position X="82" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgAQAAAAAAAAAEAAAAAAAAAgAAAAAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Else" Collapsed="true">
+    <Position X="84.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAEAAAAAAAAAgAAAgAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::While" Collapsed="true">
+    <Position X="86.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEBAAgAAEAAgAAAAAAAAgAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::For" Collapsed="true">
+    <Position X="88.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAgIAAAAgAAAAAAAQACAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Try" Collapsed="true">
+    <Position X="91" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAACAAAgQAEAAAAAAAAAE=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Catch" Collapsed="true">
+    <Position X="73" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAgCAAAAAgAgAAAE=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Fun" Collapsed="true">
+    <Position X="75.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAAAAAAAAEEAAAAAAAAAgAAAAAAABAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Class" Collapsed="true">
+    <Position X="77.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAIEAAAAACAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::StmtSeq" Collapsed="true">
+    <Position X="93.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAEAAAAgAAIAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Suite" Collapsed="true">
+    <Position X="95.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAEAAAAAAAAAAAAAAAgEAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Aug" Collapsed="true">
+    <Position X="102.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAABAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Assign" Collapsed="true">
+    <Position X="104.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAEAAAAAAAAAAACAAAAABAAAAQ=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::NodeBuilder" Collapsed="true">
+    <Position X="108" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAAABQAAABgBAQAAAAAAAACEAFCAACAECAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\NodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ASTBuilder" Collapsed="true">
+    <Position X="106.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAAACAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\NodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::PolishExprBuilder" Collapsed="true">
+    <Position X="109" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\NodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Parser" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::LiseParser" Collapsed="true">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YHYAAQwRsACIRBCABAKAECwDIEWiAiNAQICIQAjwAC4=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Visitor" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYEECIAABAAEAAAAAgARAAIAAAIAAEEAABACABA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Visitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::TypeChecker" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Visitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ByteCodeGen" Collapsed="true">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAABAAgAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Visitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::SymTableGen" Collapsed="true">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAkAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Visitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Base" Collapsed="true">
+    <Position X="57.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::LiseDebug" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIEEIAAIAAAAAAAAAAABAAAAgAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseDebug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Debug" Collapsed="true">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseDebug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Log" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseDebug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Error" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseDebug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Info" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseDebug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::LiseExc" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::SpellExc" Collapsed="true">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAQACAAAAAAAAAAAAABAAAAg=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ParserExc" Collapsed="true">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAACAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::SyntaxExc" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::MemoryExc" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\LiseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::ReaderBase" Collapsed="true">
+    <Position X="1.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAQAAAKAAIAIAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Reader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::Reader" Collapsed="true">
+    <Position X="1.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAABAQAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Reader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::StdinReader" Collapsed="true">
+    <Position X="2.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAIAKAAIJAAAAAAACAAAAAQAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Reader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lise::FileReader" Collapsed="true">
+    <Position X="0.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAABIAAAAKAAIYACAAAAAAAAAIBQACAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Reader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grammar" Collapsed="true">
+    <Position X="115" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAAAABAgCAAAgAQwgAACAAAAAAAAEAAACAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiseGrammar" Collapsed="true">
+    <Position X="111.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAIAAAAAAAEAAAAAAAAAAAAAAAAAEAAgAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolTableEntry" Collapsed="true">
+    <Position X="111.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\SymbolTable.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolTable" Collapsed="true">
+    <Position X="115" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAEAAAAAAAAAAAQQAgAAAABAACACAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\SymbolTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeBuilder" Collapsed="true">
+    <Position X="111.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\CodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCodeBuilder" Collapsed="true">
+    <Position X="113.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACIAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\CodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="lise::StackEntry" Collapsed="true">
+    <Position X="115" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\ConcreteTree.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="lise::stack" Collapsed="true">
+    <Position X="113.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\ConcreteTree.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Rule" Collapsed="true">
+    <Position X="111.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAgAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_014b_1" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_014b_2" Collapsed="true">
+    <Position X="10.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_014b_3" Collapsed="true">
+    <Position X="6.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_014b_4" Collapsed="true">
+    <Position X="11.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QhBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAQ=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_014b_5" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEgwAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="label" Collapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="labellist" Collapsed="true">
+    <Position X="10.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="arc" Collapsed="true">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="state" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="dfa" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\Grammar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="SymbolTableType" Collapsed="true">
+    <Position X="111.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>f:\zh-y-sh\ProgramDesign\vs2008\lise\src\SymbolTable.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

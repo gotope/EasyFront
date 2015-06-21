@@ -1,0 +1,35 @@
+# 简单浮点数操作
+# 注意：由于还没有做实型与整形之间的转换函数，所以
+# 这里的测试程序采用标准的浮点格式输入,若使用整形与
+# 实型混用方式，结果是未定义的
+
+a = 3.3
+b = 2.2
+c = 3.0
+
+and_num = a + b # 5.5
+mul_num = a * b # 7.26
+div_num = a / b # 1.5
+div_floor_num = a // b # 1
+
+cout(and_num)
+cout(mul_num)
+cout(div_num)
+cout(div_floor_num)
+
+a += b
+cout(a)
+
+a = 3.3
+a *= b
+cout(a)
+
+a = 3.3
+a /= b
+cout(a)
+
+a = 3.3
+a //= b
+cout(a)
+
+

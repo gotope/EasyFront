@@ -1,0 +1,112 @@
+# grammar
+file_intput				: stmt_seq ENDMARKER
+stmt_seq				: (NEWLINE | stmt)* 
+
+stmt	                : simple_stmt | compound_stmt | suite
+simple_stmt	            : small_stmt (';' small_stmt)*[';'] NEWLINE
+compound_stmt	        : if_stmt |
+							while_stmt |
+							for_stmt |
+							try_stmt |
+							fundef_stmt |
+							classdef_stmt
+suite	                : simple_stmt | NEWLINE INDENT stmt+ DEDENT
+	
+small_stmt				: ( assign | 
+							del_stmt |
+							import_stmt 
+						 )
+assign					: expr (derict_assign | augassign)
+derict_assign			: ('=' expr)*
+augassign				: augmentassign expr
+augmentassign			: ( '+=' |
+							'-=' |
+							'*=' |
+							'/=' |
+							'%=' |
+							'&=' |
+							'|=' |
+							'^=' |
+							'<<=' |
+							'>>=' |
+							'**=' |
+							'//=' |
+							)
+
+del_stmt				: 'del' NAME	#暂时只能删除一个
+import_stmt				: 'import' NAME
+
+if_stmt					: 'if' expr ':' suite
+							 ('elif' expr ':' suite)*
+							 ['else' ':' suite]
+while_stmt				: 'while' expr ':' suite
+							['else' ':' suite]
+for_stmt				: 'for' expr 'in' expr ':' suite
+							['else' ':' suite]
+try_stmt				: ( 'try' ':' suite
+							 catch_clause+
+							 ['finally' ':' suite]
+							 )
+
+catch_clause			: 'catch' [expr] ':' suite 
+
+fundef_stmt				:'fun' NAME [parameters]  ':' suite
+classdef_stmt			: 'class' NAME ':' suite #没有继承
+
+expr					: con_expr | # 这里保留了expr，算是一个接口吧
+							parameters | # 最终将参数定义放在了expr中
+							small_expr
+parameters				: parameter_atom (',' parameter_atom)*
+parameter_atom			: (nostar_parameter |
+							tuple_parameter |
+							map_parameter)
+nostar_parameter		: atom [ '=' expr] #一般的参数，即没有被*修饰的参数
+tuple_parameter			: '*' NAME [ '=' expr]
+map_parameter			: '**' NAME [ '=' expr]
+
+con_expr			    : logical_or_expr | 
+							lambda_expr
+lambda_expr				: 'lambda' [parameters] ':' con_expr
+logical_or_expr			: logical_and_expr ('or' logical_and_expr)*
+logical_and_expr		: not_expr ('and' not_expr)*
+not_expr				: 'not' not_expr | comparison
+comparison				: small_expr (comp_op small_expr)*
+comp_op					: '<' |
+							'>' |
+							'==' |
+							'<=' |
+							'>=' |
+							'!=' |
+							'in'
+
+small_expr              : xor_expr ('|' xor_expr)*
+xor_expr				: and_expr ('^' and_expr)*
+and_expr				: shift_expr ('&' shift_expr)*
+shift_expr				: arith_expr (('<<' | '>>') arith_expr)*
+arith_expr				: term (('+' | '-') term)*
+term					: factor (('*' | '/' | '%' | '//') factor)*
+factor					: ('+' | '-' | '~') factor | power
+power					: atom ['**' factor]
+# genera,tuple,map variables 
+atom					: ( tuple_expr |
+							map_expr |
+							number_expr |
+							keyword_expr |
+							string_expr |
+							name_expr
+							)
+tuple_expr				: '(' tuple_variables ')'
+map_expr				: '[' map_variables ']'
+tuple_variables			: expr(',' expr)* [',']
+map_variables			: (expr '=' expr)(',' expr '=' expr)*
+
+number_expr				: NUMBER
+string_expr				: STRING+
+keyword_expr			:   'null' |
+							'false' |
+							'true'
+name_expr				: NAME (fun_invoke | module_invoke)
+
+module_invoke			: ('.' NAME)*
+fun_invoke				: '(' parameters ')'
+

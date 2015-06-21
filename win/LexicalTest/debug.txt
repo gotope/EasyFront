@@ -1,0 +1,1 @@
+[Mon Mar 05 17:17:25 2012]	file already read end

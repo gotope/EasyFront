@@ -1,0 +1,6 @@
+a = 6
+
+while a > 0:
+	cout(a)
+	a -= 1
+

@@ -1,0 +1,93 @@
+0   0   LOAD_NAME           0 (n1)
+    1   LOAD_INT            0 (100)
+    2   BINARY_MULTIPLY     0
+    3   LOAD_NAME           1 (n2)
+    4   LOAD_INT            1 (10)
+    5   BINARY_MULTIPLY     0
+    6   BINARY_ADD          0
+    7   LOAD_NAME           2 (n3)
+    8   BINARY_ADD          0
+    9   STORE_NAME          3 (val)
+    10  LOAD_NAME           0 (n1)
+    11  LOAD_NAME           0 (n1)
+    12  BINARY_MULTIPLY     0
+    13  LOAD_NAME           0 (n1)
+    14  BINARY_MULTIPLY     0
+    15  LOAD_NAME           1 (n2)
+    16  LOAD_NAME           1 (n2)
+    17  BINARY_MULTIPLY     0
+    18  LOAD_NAME           1 (n2)
+    19  BINARY_MULTIPLY     0
+    20  BINARY_ADD          0
+    21  LOAD_NAME           2 (n3)
+    22  LOAD_NAME           2 (n3)
+    23  BINARY_MULTIPLY     0
+    24  LOAD_NAME           2 (n3)
+    25  BINARY_MULTIPLY     0
+    26  BINARY_ADD          0
+    27  STORE_NAME          4 (result)
+    28  LOAD_NAME           3 (val)
+    29  LOAD_NAME           4 (result)
+    30  COMPARE_OP          ==
+    31  POP_JUMP_IF_FALSE   2
+
+1   0   LOAD_NAME           5 (cout)
+    1   LOAD_NAME           3 (val)
+    2   CALL_FUNCTION       1
+    3   JUMP_FORWARD        2
+
+2   
+--------------------------------------------
+0   0   LOAD_INT            0 (1)
+    1   STORE_NAME          0 (a)
+    2   LOAD_OBJECT         1
+    3   MAKE_FUNCTION       0
+    4   STORE_NAME          1 (print_water_num)
+
+1   0   LOAD_NAME           0 (a)
+    1   LOAD_INT            1 (10)
+    2   COMPARE_OP          <
+    3   POP_JUMP_IF_FALSE   6
+    4   LOAD_INT            2 (0)
+    5   STORE_NAME          2 (b)
+
+2   0   LOAD_NAME           2 (b)
+    1   LOAD_INT            1 (10)
+    2   COMPARE_OP          <
+    3   POP_JUMP_IF_FALSE   5
+    4   LOAD_INT            2 (0)
+    5   STORE_NAME          3 (c)
+
+3   0   LOAD_NAME           3 (c)
+    1   LOAD_INT            1 (10)
+    2   COMPARE_OP          <
+    3   POP_JUMP_IF_FALSE   4
+    4   LOAD_NAME           1 (print_water_num)
+    5   LOAD_NAME           0 (a)
+    6   LOAD_NAME           2 (b)
+    7   LOAD_NAME           3 (c)
+    8   CALL_FUNCTION       3
+    9   LOAD_NAME           3 (c)
+    10  LOAD_INT            0 (1)
+    11  INPLACE_ADD         0
+    12  STORE_NAME          3 (c)
+    13  JUMP_ABSOLUTE       3
+
+4   0   LOAD_NAME           2 (b)
+    1   LOAD_INT            0 (1)
+    2   INPLACE_ADD         0
+    3   STORE_NAME          2 (b)
+    4   JUMP_ABSOLUTE       2
+
+5   0   LOAD_NAME           0 (a)
+    1   LOAD_INT            0 (1)
+    2   INPLACE_ADD         0
+    3   STORE_NAME          0 (a)
+    4   JUMP_ABSOLUTE       1
+
+6   
+--------------------------------------------
+153
+370
+371
+407

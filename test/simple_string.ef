@@ -1,0 +1,20 @@
+# ¼òµ¥×Ö·û´®²Ù×÷
+
+a = 'hello'
+b = 'world!'
+space = ' '
+
+# join
+hello_world = a + space + b
+cout(hello_world)
+
+hello_world += space
+# mul
+three_hello_world = hello_world * 3
+cout(three_hello_world)
+
+# 'hello world!' - 'world!' -> 'hello '
+hello = hello_world - b
+cout(hello)
+
+

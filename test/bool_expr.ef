@@ -1,0 +1,37 @@
+a = 1
+b = 5
+c = 0
+d = 0
+
+# 1 == 5 or 0 == 0,result is true
+if a == b or c == d:
+	cout('one of a == b or c == d is true')
+
+b = 1
+
+# 1 == 1 and 0 == 0 result is true
+if a == b and c == d:
+	cout('a == b and c == d')
+
+# or 优先级大于and的优先级
+
+b = 2
+
+# 0 == 0 or 1 > 2 or 1 < 0,result is true
+if c == d or a > b or a < c:
+	cout('one of c == d or a > b or a < c is true')
+else:
+	cout('one of c == d or a > b or a < c is not true')
+
+# 0 == 0 or 1 > 2 and 1 < 0,result is true
+if c == d or a > b and a < c:
+	cout('one of c == d or a > b or a < c is true')
+else:
+	cout('one of c == d or a > b or a < c is not true')
+
+# 0 == 0 or 1 > 2 and 1 < 0,result is false
+if c == d and a > b and a < c:
+	cout('one of (c == d) or (a > b and a < c) is true')
+else:
+	cout('all of (c == d) and (a > b and a < c) is false')
+

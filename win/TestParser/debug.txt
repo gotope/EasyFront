@@ -1,0 +1,409 @@
+[Sun Feb 26 19:20:45 2012]	now in module
+NAME                x                   1    	1
+[Sun Feb 26 19:20:45 2012]	now in stmts
+[Sun Feb 26 19:20:45 2012]	now in stmt
+[Sun Feb 26 19:20:45 2012]	now in simple_stmt
+[Sun Feb 26 19:20:45 2012]	now in small_stmt
+[Sun Feb 26 19:20:45 2012]	now in assign_stmt
+[Sun Feb 26 19:20:45 2012]	now in expr
+[Sun Feb 26 19:20:45 2012]	now in con_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_or_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_and_expr
+[Sun Feb 26 19:20:45 2012]	now in not_expr
+[Sun Feb 26 19:20:45 2012]	now in comparison
+[Sun Feb 26 19:20:45 2012]	now in or_expr
+[Sun Feb 26 19:20:45 2012]	now in xor_expr
+[Sun Feb 26 19:20:45 2012]	now in and_expr
+[Sun Feb 26 19:20:45 2012]	now in shitf_expr
+[Sun Feb 26 19:20:45 2012]	now in arith_expr
+[Sun Feb 26 19:20:45 2012]	now in term_expr
+[Sun Feb 26 19:20:45 2012]	now in factor
+[Sun Feb 26 19:20:45 2012]	now in power
+[Sun Feb 26 19:20:45 2012]	now in name_expr
+EQUAL               =                   1    	3
+[Sun Feb 26 19:20:45 2012]	now construct name_expr
+[Sun Feb 26 19:20:45 2012]	now construct power_expr
+[Sun Feb 26 19:20:45 2012]	now construct factor
+[Sun Feb 26 19:20:45 2012]	now in term_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct term_expr
+[Sun Feb 26 19:20:45 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct arith_expr
+[Sun Feb 26 19:20:45 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct shift_expr
+[Sun Feb 26 19:20:45 2012]	now in and_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct and_expr
+[Sun Feb 26 19:20:45 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct xor_expr
+[Sun Feb 26 19:20:45 2012]	now in or_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct or_expr
+[Sun Feb 26 19:20:45 2012]	now in comparison_r
+[Sun Feb 26 19:20:45 2012]	now construct logical_rel_expr
+[Sun Feb 26 19:20:45 2012]	now construct logical_not_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_and_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct logical_and_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_or_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct logical_or_expr
+[Sun Feb 26 19:20:45 2012]	now in derict_assign
+NULL_MARKER         null                1    	5
+[Sun Feb 26 19:20:45 2012]	now in expr
+[Sun Feb 26 19:20:45 2012]	now in con_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_or_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_and_expr
+[Sun Feb 26 19:20:45 2012]	now in not_expr
+[Sun Feb 26 19:20:45 2012]	now in comparison
+[Sun Feb 26 19:20:45 2012]	now in or_expr
+[Sun Feb 26 19:20:45 2012]	now in xor_expr
+[Sun Feb 26 19:20:45 2012]	now in and_expr
+[Sun Feb 26 19:20:45 2012]	now in shitf_expr
+[Sun Feb 26 19:20:45 2012]	now in arith_expr
+[Sun Feb 26 19:20:45 2012]	now in term_expr
+[Sun Feb 26 19:20:45 2012]	now in factor
+[Sun Feb 26 19:20:45 2012]	now in power
+[Sun Feb 26 19:20:45 2012]	now in keyword_expr
+NEWLINE                                 2    	0
+[Sun Feb 26 19:20:45 2012]	now construct keyword_expr
+[Sun Feb 26 19:20:45 2012]	now construct power_expr
+[Sun Feb 26 19:20:45 2012]	now construct factor
+[Sun Feb 26 19:20:45 2012]	now in term_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct term_expr
+[Sun Feb 26 19:20:45 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct arith_expr
+[Sun Feb 26 19:20:45 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct shift_expr
+[Sun Feb 26 19:20:45 2012]	now in and_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct and_expr
+[Sun Feb 26 19:20:45 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct xor_expr
+[Sun Feb 26 19:20:45 2012]	now in or_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct or_expr
+[Sun Feb 26 19:20:45 2012]	now in comparison_r
+[Sun Feb 26 19:20:45 2012]	now construct logical_rel_expr
+[Sun Feb 26 19:20:45 2012]	now construct logical_not_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_and_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct logical_and_expr
+[Sun Feb 26 19:20:45 2012]	now in lagical_or_expr_r
+[Sun Feb 26 19:20:45 2012]	now construct logical_or_expr
+[Sun Feb 26 19:20:45 2012]	now in derict_assign
+[Sun Feb 26 19:20:45 2012]	now construct derictassign
+[Sun Feb 26 19:20:45 2012]	now construct assign
+[Sun Feb 26 19:20:45 2012]	now in small_stmt_list
+[Sun Feb 26 19:20:45 2012]	now construct simple_stmt
+IF_MARKER           if                  2    	1
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	now in stmt
+[Sun Feb 26 19:20:49 2012]	now in compound_stmt
+[Sun Feb 26 19:20:49 2012]	now in if_stmt
+NAME                a                   2    	4
+[Sun Feb 26 19:20:49 2012]	now in expr
+[Sun Feb 26 19:20:49 2012]	now in con_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in not_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison
+[Sun Feb 26 19:20:49 2012]	now in or_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr
+[Sun Feb 26 19:20:49 2012]	now in term_expr
+[Sun Feb 26 19:20:49 2012]	now in factor
+[Sun Feb 26 19:20:49 2012]	now in power
+[Sun Feb 26 19:20:49 2012]	now in name_expr
+GREATER             >                   2    	6
+[Sun Feb 26 19:20:49 2012]	now construct name_expr
+[Sun Feb 26 19:20:49 2012]	now construct power_expr
+[Sun Feb 26 19:20:49 2012]	now construct factor
+[Sun Feb 26 19:20:49 2012]	now in term_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct term_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct arith_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct shift_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct and_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct xor_expr
+[Sun Feb 26 19:20:49 2012]	now in or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct or_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison_r
+NAME                b                   2    	8
+[Sun Feb 26 19:20:49 2012]	now in or_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr
+[Sun Feb 26 19:20:49 2012]	now in term_expr
+[Sun Feb 26 19:20:49 2012]	now in factor
+[Sun Feb 26 19:20:49 2012]	now in power
+[Sun Feb 26 19:20:49 2012]	now in name_expr
+COLON               :                   2    	9
+[Sun Feb 26 19:20:49 2012]	now construct name_expr
+[Sun Feb 26 19:20:49 2012]	now construct power_expr
+[Sun Feb 26 19:20:49 2012]	now construct factor
+[Sun Feb 26 19:20:49 2012]	now in term_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct term_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct arith_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct shift_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct and_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct xor_expr
+[Sun Feb 26 19:20:49 2012]	now in or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct or_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_rel_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_rel_expr
+[Sun Feb 26 19:20:49 2012]	now construct logical_not_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_or_expr
+NEWLINE                                 3    	0
+[Sun Feb 26 19:20:49 2012]	now in suite
+INDENT                                  3    	4
+NAME                cout                3    	5
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	now in stmt
+[Sun Feb 26 19:20:49 2012]	now in simple_stmt
+[Sun Feb 26 19:20:49 2012]	now in small_stmt
+[Sun Feb 26 19:20:49 2012]	now in assign_stmt
+[Sun Feb 26 19:20:49 2012]	now in expr
+[Sun Feb 26 19:20:49 2012]	now in con_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in not_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison
+[Sun Feb 26 19:20:49 2012]	now in or_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr
+[Sun Feb 26 19:20:49 2012]	now in term_expr
+[Sun Feb 26 19:20:49 2012]	now in factor
+[Sun Feb 26 19:20:49 2012]	now in power
+[Sun Feb 26 19:20:49 2012]	now in name_expr
+LPAR                (                   3    	9
+[Sun Feb 26 19:20:49 2012]	now in fun_invoke
+STRING              I am lisency        3    	12
+[Sun Feb 26 19:20:49 2012]	now in parameters
+[Sun Feb 26 19:20:49 2012]	now in atom_para
+[Sun Feb 26 19:20:49 2012]	now in string_expr
+RPAR                )                   3    	24
+[Sun Feb 26 19:20:49 2012]	now in string_expr
+[Sun Feb 26 19:20:49 2012]	now construct string_expr
+[Sun Feb 26 19:20:49 2012]	now construct NostarParameterExpr
+[Sun Feb 26 19:20:49 2012]	now construct ParameterExpr
+NEWLINE                                 4    	0
+[Sun Feb 26 19:20:49 2012]	now construct name_expr
+[Sun Feb 26 19:20:49 2012]	now construct power_expr
+[Sun Feb 26 19:20:49 2012]	now construct factor
+[Sun Feb 26 19:20:49 2012]	now in term_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct term_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct arith_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct shift_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct and_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct xor_expr
+[Sun Feb 26 19:20:49 2012]	now in or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct or_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_rel_expr
+[Sun Feb 26 19:20:49 2012]	now construct logical_not_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_or_expr
+[Sun Feb 26 19:20:49 2012]	now construct assign
+[Sun Feb 26 19:20:49 2012]	now in small_stmt_list
+[Sun Feb 26 19:20:49 2012]	now construct simple_stmt
+DEDENT                                  5    	0
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	now in stmt
+[Sun Feb 26 19:20:49 2012]	now in simple_stmt
+[Sun Feb 26 19:20:49 2012]	now in small_stmt
+[Sun Feb 26 19:20:49 2012]	now construct stmtseq
+WHILE_MARKER        while               5    	1
+[Sun Feb 26 19:20:49 2012]	now construct suite
+[Sun Feb 26 19:20:49 2012]	now in elif_stmt
+[Sun Feb 26 19:20:49 2012]	now in else_stmt
+[Sun Feb 26 19:20:49 2012]	now construct ifstmt
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	now in stmt
+[Sun Feb 26 19:20:49 2012]	now in compound_stmt
+[Sun Feb 26 19:20:49 2012]	now in while_stmt
+NAME                you                 5    	7
+[Sun Feb 26 19:20:49 2012]	now in expr
+[Sun Feb 26 19:20:49 2012]	now in con_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in not_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison
+[Sun Feb 26 19:20:49 2012]	now in or_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr
+[Sun Feb 26 19:20:49 2012]	now in term_expr
+[Sun Feb 26 19:20:49 2012]	now in factor
+[Sun Feb 26 19:20:49 2012]	now in power
+[Sun Feb 26 19:20:49 2012]	now in name_expr
+COLON               :                   5    	10
+[Sun Feb 26 19:20:49 2012]	now construct name_expr
+[Sun Feb 26 19:20:49 2012]	now construct power_expr
+[Sun Feb 26 19:20:49 2012]	now construct factor
+[Sun Feb 26 19:20:49 2012]	now in term_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct term_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct arith_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct shift_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct and_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct xor_expr
+[Sun Feb 26 19:20:49 2012]	now in or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct or_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_rel_expr
+[Sun Feb 26 19:20:49 2012]	now construct logical_not_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_or_expr
+NEWLINE                                 6    	0
+[Sun Feb 26 19:20:49 2012]	now in else_stmt
+[Sun Feb 26 19:20:49 2012]	now in suite
+INDENT                                  6    	4
+IF_MARKER           if                  6    	5
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	now in stmt
+[Sun Feb 26 19:20:49 2012]	now in compound_stmt
+[Sun Feb 26 19:20:49 2012]	now in if_stmt
+NAME                b                   6    	8
+[Sun Feb 26 19:20:49 2012]	now in expr
+[Sun Feb 26 19:20:49 2012]	now in con_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in not_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison
+[Sun Feb 26 19:20:49 2012]	now in or_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr
+[Sun Feb 26 19:20:49 2012]	now in term_expr
+[Sun Feb 26 19:20:49 2012]	now in factor
+[Sun Feb 26 19:20:49 2012]	now in power
+[Sun Feb 26 19:20:49 2012]	now in name_expr
+COLON               :                   6    	10
+[Sun Feb 26 19:20:49 2012]	now construct name_expr
+[Sun Feb 26 19:20:49 2012]	now construct power_expr
+[Sun Feb 26 19:20:49 2012]	now construct factor
+[Sun Feb 26 19:20:49 2012]	now in term_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct term_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct arith_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct shift_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct and_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct xor_expr
+[Sun Feb 26 19:20:49 2012]	now in or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct or_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_rel_expr
+[Sun Feb 26 19:20:49 2012]	now construct logical_not_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_or_expr
+NEWLINE                                 7    	0
+[Sun Feb 26 19:20:49 2012]	now in suite
+INDENT                                  7    	8
+NAME                cout                7    	9
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	now in stmt
+[Sun Feb 26 19:20:49 2012]	now in simple_stmt
+[Sun Feb 26 19:20:49 2012]	now in small_stmt
+[Sun Feb 26 19:20:49 2012]	now in assign_stmt
+[Sun Feb 26 19:20:49 2012]	now in expr
+[Sun Feb 26 19:20:49 2012]	now in con_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in not_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison
+[Sun Feb 26 19:20:49 2012]	now in or_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr
+[Sun Feb 26 19:20:49 2012]	now in term_expr
+[Sun Feb 26 19:20:49 2012]	now in factor
+[Sun Feb 26 19:20:49 2012]	now in power
+[Sun Feb 26 19:20:49 2012]	now in name_expr
+LPAR                (                   7    	13
+[Sun Feb 26 19:20:49 2012]	now in fun_invoke
+STRING              think it            7    	16
+[Sun Feb 26 19:20:49 2012]	now in parameters
+[Sun Feb 26 19:20:49 2012]	now in atom_para
+[Sun Feb 26 19:20:49 2012]	now in string_expr
+RPAR                )                   7    	24
+[Sun Feb 26 19:20:49 2012]	now in string_expr
+[Sun Feb 26 19:20:49 2012]	now construct string_expr
+[Sun Feb 26 19:20:49 2012]	now construct NostarParameterExpr
+[Sun Feb 26 19:20:49 2012]	now construct ParameterExpr
+NEWLINE                                 8    	0
+[Sun Feb 26 19:20:49 2012]	now construct name_expr
+[Sun Feb 26 19:20:49 2012]	now construct power_expr
+[Sun Feb 26 19:20:49 2012]	now construct factor
+[Sun Feb 26 19:20:49 2012]	now in term_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct term_expr
+[Sun Feb 26 19:20:49 2012]	now in arith_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct arith_expr
+[Sun Feb 26 19:20:49 2012]	now in shitf_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct shift_expr
+[Sun Feb 26 19:20:49 2012]	now in and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct and_expr
+[Sun Feb 26 19:20:49 2012]	now in xor_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct xor_expr
+[Sun Feb 26 19:20:49 2012]	now in or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct or_expr
+[Sun Feb 26 19:20:49 2012]	now in comparison_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_rel_expr
+[Sun Feb 26 19:20:49 2012]	now construct logical_not_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_and_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_and_expr
+[Sun Feb 26 19:20:49 2012]	now in lagical_or_expr_r
+[Sun Feb 26 19:20:49 2012]	now construct logical_or_expr
+[Sun Feb 26 19:20:49 2012]	now construct assign
+[Sun Feb 26 19:20:49 2012]	now in small_stmt_list
+[Sun Feb 26 19:20:49 2012]	now construct simple_stmt
+[Sun Feb 26 19:20:49 2012]	file already read end
+ENDMARKER                               8    	0
+[Sun Feb 26 19:20:49 2012]	now in stmts
+ENDMARKER                               8    	1
+[Sun Feb 26 19:20:49 2012]	now construct stmtseq
+[Sun Feb 26 19:20:49 2012]	now construct suite
+[Sun Feb 26 19:20:49 2012]	now in elif_stmt
+[Sun Feb 26 19:20:49 2012]	now in else_stmt
+[Sun Feb 26 19:20:49 2012]	now construct ifstmt
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	file already read end
+ENDMARKER                               8    	2
+[Sun Feb 26 19:20:49 2012]	now construct stmtseq
+[Sun Feb 26 19:20:49 2012]	now construct suite
+[Sun Feb 26 19:20:49 2012]	now construct whilestmt
+[Sun Feb 26 19:20:49 2012]	now in stmts
+[Sun Feb 26 19:20:49 2012]	file already read end
+ENDMARKER                               8    	3
+[Sun Feb 26 19:20:49 2012]	now construct stmtseq
+[Sun Feb 26 19:20:49 2012]	now construct stmtseq
+[Sun Feb 26 19:20:49 2012]	now construct stmtseq
+[Sun Feb 26 19:20:49 2012]	file already read end
+ENDMARKER                               8    	4
